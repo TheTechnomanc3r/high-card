@@ -9,6 +9,10 @@ body {
     text-align: center;
 }
 
+p {
+    
+}
+
 .btn {
     width: 100px;
     height: 35px;
@@ -51,11 +55,22 @@ body {
     display: inline-block;
     vertical-align: middle;
     border: 1px solid whitesmoke;
+    height: 266px;
+    width: 184px;
+    margin-top: 5%;
 }
 
 .cpucard {
     display: inline-block;
     vertical-align: middle;
     border: 1px solid whitesmoke;
+    height: 266px;
+    width: 184px;
+    margin-top: 5%;
     margin-left: 300px;
+
+}
+
+.btn-div {
+    margin-top: 50px;
 }

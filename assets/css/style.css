@@ -4,3 +4,58 @@ body {
     color: whitesmoke;
 
 }
+
+.heading {
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.game-area {
+    background-color: #446a83;
+    box-sizing: border-box;
+    width: 85%;
+    height: 75vh;
+    max-height: 530px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    
+
+}
+
+.score-area {
+    background-color: #446a83;
+    height: 150px;
+    width: 830px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-area {
+   text-align: center;
+
+}
+
+.playercard {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid whitesmoke;
+}
+
+.cpucard {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid whitesmoke;
+    margin-left: 300px;
+}

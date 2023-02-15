@@ -17,6 +17,14 @@ img {
     margin-top: 2%;
 }
 
+.logo {
+    height: 5%;
+    width: 5%;
+    text-align: right;
+    display:inline-block;
+
+}
+
 .btn {
     width: 100px;
     height: 35px;

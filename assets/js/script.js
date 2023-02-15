@@ -20,9 +20,13 @@ cards[10] = assets/images/heartsj.png
 cards[11] = assets/images/heartsq.png
 cards[12] = assets/images/heartsk.png
 
+cards[13] = `assets/images/`
+
+
+
 var number = Math.floor(Math.random() * cards.length);
 
-return document.getElementById("playercard").innerHTML = cards[number];
+return document.getElementsByClassName("playercard").innerHTML = '<img src="'+cards[number]+'" />';
 
 
 }

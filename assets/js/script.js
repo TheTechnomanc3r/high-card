@@ -17,8 +17,7 @@ function rndCard() {
         var image = new Image();
         image.src = cardPath+rndp;        
         document.getElementById("playercard").appendChild(image);
-        console.log(rndp);
-          
+                 
     }
 
     document.getElementById("cpucard").innerHTML="";
@@ -29,7 +28,7 @@ function rndCard() {
         var image = new Image();
         image.src = cardPath+rndc;
         document.getElementById("cpucard").appendChild(image);
-        console.log(rndc, i);
+
     }
 
     if (rndp > rndc) {

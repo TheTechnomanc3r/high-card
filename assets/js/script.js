@@ -10,6 +10,7 @@ function rndCard() {
     /* Resets the picture */
     
     document.getElementById("playercard").innerHTML="";
+    document.getElementById("playercard").style.borderColor = "whitesmoke";
 
     for (var i = 0; i < 1; i++) {
         var rndp = cardArr[Math.floor(Math.random() * cardArr.length)];
@@ -21,6 +22,7 @@ function rndCard() {
     }
 
     document.getElementById("cpucard").innerHTML="";
+    document.getElementById("cpucard").style.borderColor = "whitesmoke";
 
     for (var i = 0; i < 1; i++) {
         var rndc = cardArr[Math.floor(Math.random() * cardArr.length)];
@@ -30,24 +32,17 @@ function rndCard() {
         console.log(rndc, i);
     }
 
-    /*if (rndp == rndc) {
-
-        ++pscore;
-
-    }*/
-
-
     if (rndp > rndc) {
         
        let pscore = document.getElementById("playerscore").innerText;
        document.getElementById("playerscore").innerText = ++pscore;
-       document.getElementById("playercard").style.borderColor = "darkorange";
+       document.getElementById("playercard").style.borderColor = "#00ff00";   
         
     } else if (rndp < rndc) {
 
        let cscore = document.getElementById("cpuscore").innerText;
         document.getElementById("cpuscore").innerText = ++cscore;
-        document.getElementById("cpucard").style.borderColor = "darkorange";
+        document.getElementById("cpucard").style.borderColor = "#00ff00";
     }
 
 }

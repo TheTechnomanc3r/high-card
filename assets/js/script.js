@@ -32,11 +32,13 @@ function rndCard() {
 
     if (rndp > rndc) {
         
-        document.getElementById("playerscore").innerHTML="Player WON!";
+       let pscore = document.getElementById("playerscore").innerText;
+       document.getElementById("playerscore").innerText = ++pscore;
         
     } else if (rndp < rndc) {
 
-        document.getElementById("cpuscore").innerHTML="CPU WON!";
+       let cscore = document.getElementById("cpuscore").innerText;
+        document.getElementById("cpuscore").innerText = ++cscore;
     }
 
 }

@@ -17,9 +17,7 @@ function rndCard() {
         image.src = cardPath+rndp;        
         document.getElementById("playercard").appendChild(image);
         console.log(rndp);
-        
-        
-   
+          
     }
 
     document.getElementById("cpucard").innerHTML="";

@@ -1,8 +1,8 @@
 
 /* Generates a random card from the .png images */
 
-var cardTest = ['heartsj.png', 'heartsq.png', 'heartsk.png','heartsa.png'];
-var cardArr = ['heartsa.png','hearts2.png', 'hearts3.png', 'hearts4.png', 'hearts5.png', 'hearts6.png', 
+var cardTest = ['heartsj.png', 'heartsq.png', 'heartsk.png','hearts14.png'];
+var cardArr = ['hearts14.png','hearts2.png', 'hearts3.png', 'hearts4.png', 'hearts5.png', 'hearts6.png', 
 'hearts7.png', 'hearts8.png', 'hearts9.png', 'hearts10.png', 'heartsj.png', 'heartsq.png', 'heartsk.png'];
 var cardPath = "assets/images/";
 

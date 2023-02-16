@@ -1,9 +1,8 @@
 
 /* Generates a random card from the .png images */
 
-var cardTest = ['heartsj.png', 'heartsq.png', 'heartsk.png','hearts14.png'];
-var cardArr = ['hearts14.png','hearts2.png', 'hearts3.png', 'hearts4.png', 'hearts5.png', 'hearts6.png', 
-'hearts7.png', 'hearts8.png', 'hearts9.png', 'hearts10.png', 'heartsj.png', 'heartsq.png', 'heartsk.png'];
+var cardArr = ['hearts02.png', 'hearts03.png', 'hearts04.png', 'hearts05.png', 'hearts06.png', 'hearts07.png',
+'hearts08.png', 'hearts09.png', 'hearts10.png', 'hearts11.png', 'hearts12.png', 'hearts13.png', 'hearts14.png'];
 var cardPath = "assets/images/";
 
 function rndCard() {
@@ -13,7 +12,7 @@ function rndCard() {
     document.getElementById("playercard").innerHTML="";
 
     for (var i = 0; i < 1; i++) {
-        var rndp = cardTest[Math.floor(Math.random() * cardTest.length)];
+        var rndp = cardArr[Math.floor(Math.random() * cardArr.length)];
         var image = new Image();
         image.src = cardPath+rndp;        
         document.getElementById("playercard").appendChild(image);
@@ -24,7 +23,7 @@ function rndCard() {
     document.getElementById("cpucard").innerHTML="";
 
     for (var i = 0; i < 1; i++) {
-        var rndc = cardTest[Math.floor(Math.random() * cardTest.length)];
+        var rndc = cardArr[Math.floor(Math.random() * cardArr.length)];
         var image = new Image();
         image.src = cardPath+rndc;
         document.getElementById("cpucard").appendChild(image);

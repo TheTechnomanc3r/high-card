@@ -36,13 +36,15 @@ function rndCard() {
         
        let pscore = document.getElementById("playerscore").innerText;
        document.getElementById("playerscore").innerText = ++pscore;
-       document.getElementById("playercard").style.borderColor = "#00ff00";   
+       document.getElementById("playercard").style.borderColor = "#00ff00";
+       document.getElementById("winner").innerHTML = "Player Wins!"   
         
     } else if (rndp < rndc) {
 
        let cscore = document.getElementById("cpuscore").innerText;
         document.getElementById("cpuscore").innerText = ++cscore;
         document.getElementById("cpucard").style.borderColor = "#00ff00";
+        document.getElementById("winner").innerHTML = "CPU Wins!" 
     }
 
 }

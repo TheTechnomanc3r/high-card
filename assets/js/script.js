@@ -45,7 +45,12 @@ function rndCard() {
         document.getElementById("cpuscore").innerText = ++cscore;
         document.getElementById("cpucard").style.borderColor = "#00ff00";
         document.getElementById("winner").innerHTML = "CPU Wins!" 
+
+    } else if (rndp == rndc) {
+
+        document.getElementById("winner").innerHTML = "Draw";
     }
+
 
 }
 

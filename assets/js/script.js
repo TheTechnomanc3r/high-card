@@ -64,13 +64,6 @@ function rndCard() {
 
 
 
-function winnerCard() {
-
-
-
-
-}
-
 
 
 

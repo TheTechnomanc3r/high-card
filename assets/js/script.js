@@ -21,6 +21,8 @@ function rndCard() {
     document.getElementById("playercard").innerHTML="";
     document.getElementById("playercard").style.borderColor = "whitesmoke";
 
+    /* Generates a random Card with an assigned value */
+
     for (var i = 0; i < 1; i++) {
         var rndp = cardArr[Math.floor(Math.random() * cardArr.length)];
         var image = new Image();
@@ -39,6 +41,7 @@ function rndCard() {
         document.getElementById("cpucard").appendChild(image);
 
     }
+        /* Compares the value of the cards and selects the winner */
 
     if (rndp > rndc) {
         
@@ -53,6 +56,8 @@ function rndCard() {
         document.getElementById("cpuscore").innerText = ++cscore;
         document.getElementById("cpucard").style.borderColor = "#00ff00";
         document.getElementById("winner").innerHTML = "CPU Wins!" 
+
+        /* Checks for a Draw and skips giving points */
 
     } else if (rndp == rndc) {
 

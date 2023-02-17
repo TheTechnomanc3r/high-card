@@ -5,8 +5,17 @@ var cardArr = ['hearts02.png', 'hearts03.png', 'hearts04.png', 'hearts05.png', '
 'hearts08.png', 'hearts09.png', 'hearts10.png', 'hearts11.png', 'hearts12.png', 'hearts13.png', 'hearts14.png'];
 var cardPath = "assets/images/";
 
+/* Sets focus to button */
+
+window.onload = function() {
+    document.getElementById("btn").focus();
+}
+
+
 function rndCard() {
 
+    document.getElementById("btn").focus();
+    
     /* Resets the picture */
     
     document.getElementById("playercard").innerHTML="";
@@ -53,11 +62,13 @@ function rndCard() {
 
 }
 
-function playGame() {
+
+
+function winnerCard() {
 
 
 
-    
+
 }
 
 

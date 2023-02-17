@@ -30,7 +30,7 @@ img {
 
 }
 
-.btn {
+#btn {
     width: 100px;
     height: 35px;
     font-family: 'Josefin Sans', sans-serif;
@@ -104,4 +104,29 @@ img {
     color: red;
     font-weight: bold;
     margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        background: rgb(54, 9, 47);
+    }
+
+    #cpucard {
+        margin-left: auto;
+        height: 50%;
+
+    }
+
+    #playercard {
+        height: 50%;
+
+    }
+
+    img {
+        height: 50%;
+        width: 50%;
+    }
+
+
 }

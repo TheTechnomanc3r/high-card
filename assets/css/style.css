@@ -44,7 +44,7 @@ img {
     box-sizing: border-box;
     width: 85%;
     height: 75vh;
-    max-height: 530px;
+    max-height: 600px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
@@ -55,8 +55,10 @@ img {
 
 .score-area {
     background-color: #446a83;
+    box-sizing: border-box;
+    width: 85%;
     height: 150px;
-    width: 830px;
+    max-width: 830px;
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
@@ -108,9 +110,6 @@ img {
 
 @media only screen and (max-width: 600px) {
 
-    body {
-        background: rgb(54, 9, 47);
-    }
 
     #cpucard {
         margin-left: auto;
